@@ -1,0 +1,22 @@
+{
+  "name": "timestamp-ms",
+  "version": "1.0.0",
+  "description": "timestamp-ms for freecodecamp",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --harmony server.js"
+  },
+  "author": "furball514",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.2.0",
+    "koa-router": "^7.1.1",
+    "koa-pug": "^3.0.0-2",
+    "moment": "^2.18.1",
+    "pug": "^0.1.0",
+    "koa2-cors": "^2.0.3"
+  },
+  "engines": {
+    "node": "7.9.0"
+  }
+}
